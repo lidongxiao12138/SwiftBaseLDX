@@ -916,15 +916,17 @@
 			baseConfigurationReference = F212B9DDA66ED5840B591644 /* Pods-BookSwiftBase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6DYUEXYS7C;
-				GCC_PREFIX_HEADER = /Users/edz/Desktop/BookSwiftBase/BookSwiftBase/LDXFile.h;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = /Users/edz/Documents/SwiftBaseLDX/BookSwiftBase/BookSwiftBase/LDXFile.h;
 				INFOPLIST_FILE = BookSwiftBase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ldx.BookSwiftBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/edz/Desktop/BookSwiftBase/BookSwiftBase/LDXFile.h;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/edz/Documents/SwiftBaseLDX/BookSwiftBase/BookSwiftBase/LDXFile.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -935,15 +937,17 @@
 			baseConfigurationReference = 75F59E15342051531E33C2A3 /* Pods-BookSwiftBase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6DYUEXYS7C;
-				GCC_PREFIX_HEADER = /Users/edz/Desktop/BookSwiftBase/BookSwiftBase/LDXFile.h;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = /Users/edz/Documents/SwiftBaseLDX/BookSwiftBase/BookSwiftBase/LDXFile.h;
 				INFOPLIST_FILE = BookSwiftBase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ldx.BookSwiftBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/edz/Desktop/BookSwiftBase/BookSwiftBase/LDXFile.h;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/edz/Documents/SwiftBaseLDX/BookSwiftBase/BookSwiftBase/LDXFile.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
